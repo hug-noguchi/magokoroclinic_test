@@ -46,8 +46,13 @@
           </p>
           <p class="hd_box-tel">
             訪問診療<br>
-            <span><a href="tel:09018193109">TEL:090-1819-3109</a><br>
-            FAX:050-3535-6556</span>
+            <span>
+              <a href="tel:09018193109">TEL:090-1819-3109</a>
+              <br>
+              <a href="tel:0424555586">042-455-5586</a>
+              <br>
+              FAX:050-3535-6556
+            </span>
           </p>
           <div class="btn_contact">
             <a href="/contact/">
@@ -82,7 +87,10 @@
           <li><a href="/recruit/">求人案内</a></li>
           <li><a href="/contact/">お問合せ・お申し込み</a></li>
           <li><a href="tel:0424709177">外来 042-470-9177</a></li>
-          <li><a href="tel:09018193109">訪問 090-1819-3109</a></li>
+          <li>
+            <a href="tel:09018193109">訪問 090-1819-3109</a>
+            <a href="tel:0424555586">042-455-5586</a>
+          </li>
         </ul>
       </nav>
       </div>

@@ -1,18 +1,13 @@
 <?php get_header(); ?>
-
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/styles/about.css">
-
   <main>
     <div id="fv">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fv_about_pc.png" alt="当院について" class="pc">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fv_about_sp.png" alt="当院について" class="sp">
     </div>
-
     <ul id="breadcrumb">
       <li><a href="/">TOP</a><span>▶︎</span></li>
       <li>当院について</li>
     </ul>
-
     <div id="about">
       <div class="about_inner">
         <section id="about_overview">
@@ -28,10 +23,10 @@
                 <td>〒203-0013<br>
                 東京都東久留米市新川町<br class="sp">1-9-22</td>
               </tr>
-              <tr>
+              <tr class="about_tel">
                 <th>電話番号</th>
-                <td>外来診療：042-470-9177<br>
-                訪問診療：090-1819-3109</td>
+                <td>外来診療：<a href="tel:0424709177">042-470-9177</a><br>
+                訪問診療：<a href="tel:09018193109">090-1819-3109</a><span class="pc">／</span><br class="sp"><a href="tel:0424555586"><span class="sp_tel">042-455-5586</span></a></td>
               </tr>
               <tr>
                 <th>FAX</th>
@@ -116,9 +111,7 @@
           </li>
         </ul>
       </section>
-
       <div class="bg_round_about"><span></span></div>
-
       <section id="subject_about">
         <h2><span>診療科目</span></h2>
         <ul class="subject_list">
@@ -161,5 +154,4 @@
         </ul>
       </section>
     </div>
-
 <?php get_footer(); ?>
