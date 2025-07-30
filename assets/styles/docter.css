@@ -1,0 +1,147 @@
+@charset "UTF-8";
+#docter {
+  background-color: #f7f4e9;
+  padding: 120px 0;
+}
+
+#docter .docter_inner {
+  max-width: 1244px;
+  width: calc((1244 / 1920) * 100%);
+  margin: 0 auto;
+}
+
+#docter .docter_list li:not(:last-child) {
+  margin-bottom: calc((120 / 1244) * 100%);
+}
+
+#docter .docter_list li .docter_box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: calc((94 / 1244) * 100%);
+  line-height: 1.75;
+  position: relative;
+}
+
+#docter .docter_list li:nth-child(2) .docter_box {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+#docter .docter_list li .docter_box picture {
+  max-width: 430px;
+}
+
+#docter .docter_list li .docter_box picture img {
+  z-index: 1;
+  position: relative;
+}
+
+#docter .docter_list li .docter_box .docter_text p {
+  font-size: clamp(16px, 1.25vw, 24px);
+}
+
+#docter .name {
+  font-size: clamp(16px, 1.45vw, 28px);
+  padding-bottom: 20px;
+}
+
+#docter .name span {
+  font-size: clamp(20px, 1.6vw, 32px);
+  font-weight: bold;
+}
+
+#docter .meiyo {
+  text-align: center;
+  position: relative;
+  padding-bottom: 0;
+}
+
+#docter .docter_list li .docter_box .docter_text .biography {
+  padding-bottom: 30px;
+}
+
+#docter .docter_list li .docter_box .docter_text .biography span {
+  letter-spacing: -1px;
+}
+
+#docter .docter_list li .docter_note {
+  font-size: clamp(18px, 1.3vw, 25px);
+  background-color: #fff;
+  border-radius: 8px;
+  padding: calc((85 / 1244) * 100%) calc((120 / 1244) * 100%);
+  line-height: 1.4;
+}
+
+#docter .docter_list li .docter_note span {
+  color: #42b1af;
+}
+
+@media all and (min-width: 481px) {
+  #docter .docter_list li .docter_box .docter_text {
+    width: 57%;
+  }
+  #docter .docter_list li .docter_box picture {
+    width: 36%;
+  }
+  #docter .docter_list li:first-child picture::before,
+  #docter .docter_list li:last-child picture::before {
+    content: "";
+    display: inline-block;
+    width: 248px;
+    height: 260px;
+    background: url(../images/round_left_docter.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -169px;
+    left: -147px;
+  }
+  #docter .docter_list li:nth-child(2) picture::before {
+    content: "";
+    display: inline-block;
+    width: 248px;
+    height: 260px;
+    background: url(../images/round_right_docter.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -160px;
+    right: -154px;
+  }
+  #docter .docter_list li:last-child {
+    position: relative;
+  }
+  .meiyo p::before {
+    content: "";
+    display: inline-block;
+    width: 248px;
+    height: 260px;
+    background: url(../images/round_left_docter.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -169px;
+    left: -147px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  #docter {
+    padding: 40px 20px;
+  }
+  #docter .docter_inner {
+    width: 100%;
+  }
+  #docter .docter_text {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  #docter .docter_list li .docter_box {
+    display: block;
+    margin-bottom: 40px;
+  }
+  #docter .docter_list li .docter_note {
+    font-size: 16px;
+    padding: 30px 20px;
+  }
+  #docter .docter_list li:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}

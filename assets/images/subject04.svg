@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+  <g id="グループ_62" data-name="グループ 62" transform="translate(-249 -3774)">
+    <g id="グループ_27" data-name="グループ 27">
+      <circle id="楕円形_3" data-name="楕円形 3" cx="90" cy="90" r="90" transform="translate(249 3774)" fill="#42b1af"/>
+    </g>
+    <g id="グループ_45" data-name="グループ 45" transform="translate(145 -100)">
+      <g id="グループ_44" data-name="グループ 44" transform="translate(0 18.667)">
+        <g id="長方形_86" data-name="長方形 86" transform="translate(147 3944.333)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+          <rect width="62" height="38" stroke="none"/>
+          <rect x="-2.5" y="-2.5" width="67" height="43" fill="none"/>
+        </g>
+        <g id="多角形_3" data-name="多角形 3" transform="translate(147 3913.333)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M31,0,62,27H0Z" stroke="none"/>
+          <path d="M 31.00000190734863 0 L 3.814697265625e-06 27 L 62 27 L 31.00000190734863 0 M 31.00000190734863 -5 C 32.17136764526367 -5 33.34273529052734 -4.590137481689453 34.28390121459961 -3.770412445068359 L 65.28390502929688 23.22958755493164 C 66.85626220703125 24.59907531738281 67.41368865966797 26.800537109375 66.68252563476562 28.75327491760254 C 65.95136260986328 30.70601272583008 64.08513641357422 32 62 32 L 3.814697265625e-06 32 C -2.085132598876953 32 -3.951358795166016 30.70601272583008 -4.682521820068359 28.75327491760254 C -5.413684844970703 26.800537109375 -4.856258392333984 24.59907531738281 -3.283901214599609 23.22958755493164 L 27.71610260009766 -3.770412445068359 C 28.65727233886719 -4.590137481689453 29.82863616943359 -5 31.00000190734863 -5 Z" stroke="none" fill="#fff"/>
+        </g>
+        <g id="長方形_87" data-name="長方形 87" transform="translate(165 3956.333)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+          <rect width="24" height="16" stroke="none"/>
+          <rect x="-2.5" y="-2.5" width="29" height="21" fill="none"/>
+        </g>
+      </g>
+      <g id="グループ_43" data-name="グループ 43" transform="translate(-22.5 -33)">
+        <line id="線_36" data-name="線 36" x2="41" transform="translate(228.5 3972.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+        <line id="線_37" data-name="線 37" y1="44.25" transform="translate(249 3950.25)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+      </g>
+    </g>
+  </g>
+</svg>
