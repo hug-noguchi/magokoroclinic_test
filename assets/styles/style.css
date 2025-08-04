@@ -142,8 +142,19 @@ h1 {
 }
 
 @media all and (min-width: 481px) {
-  .hd_box p.hd_box-tel:nth-child(2) span :nth-of-type(2) {
-    padding-left: 50px;
+  /* .hd_box p.hd_box-tel .tel_sub {
+    padding-left: 51px;
+    display: inline-block;
+  } */
+  .hd_box p.hd_box-tel .tel-row {
+    display: flex;
+    align-items: baseline;
+    margin-top: 4px;
+  }
+
+  .hd_box p.hd_box-tel .tel-label {
+    width: 60px;
+    display: inline-block;
   }
 }
 
@@ -163,7 +174,7 @@ h1 {
     padding: 10px 0 0 0;
   }
   .menu-content ul li:last-child a:nth-of-type(2) {
-    padding: 10px 0 0 40px;
+    padding: 10px 0 0 41px;
   }
 }
 
@@ -864,8 +875,70 @@ h2 span:before {
   margin-bottom: calc((40 / 480) * 100%);
 }
 
-.ft_box-tel.houmon .ft_box-tel-text a:nth-of-type(2) {
-  padding-left: 46px;
+/* .ft_box-tel.houmon .ft_box-tel-text .tel_sub {
+  padding-left: 47px;
+  display: inline-block;
+} */
+
+/* .ft_box-tel.houmon .ft_box-tel-text .ft-tel-row {
+  display: flex;
+  align-items: baseline;
+  margin-top: 4px;
+}
+
+.ft_box-tel.houmon .ft_box-tel-text .ft-tel-label {
+  width: 60px;
+  display: inline-block;
+} */
+
+.ft_box-tel-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.ft_tel-line {
+  display: flex;
+  align-items: baseline;
+  line-height: 1.6;
+}
+
+.ft_tel-label {
+  min-width: 45px;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.ft_box-tel.houmon {
+  display: flex;
+  align-items: center;
+}
+
+.ft_box-tel.houmon .tel-row {
+  display: flex;
+  align-items: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+.ft_box-tel.houmon .tel-label {
+  display: inline-block;
+  width: 43px;
+}
+
+.ft_box-tel.houmon .tel-row a,
+.ft_box-tel.houmon .tel-row span {
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+@media all and (max-width: 480px) {
+  .ft_box-tel-box {
+    font-size: clamp(14px, 1.45vw, 28px);
+  }
+  .ft_box-tel.houmon .tel-label {
+    width: 30px;
+  }
 }
 
 .ft_map {
@@ -881,7 +954,7 @@ h2 span:before {
 
 .ft_nav {
   max-width: 1499px;
-  width: 78%;
+  width: 82%;
   margin: 0 auto;
 }
 
@@ -1224,15 +1297,13 @@ h2 span:before {
     margin-bottom: 20px;
   }
   .ft_box-tel {
-    justify-content: space-around;
-    padding: 10px 30px;
     width: 100%;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px 20px;
   }
   .ft_box-tel.gairai {
     margin-bottom: 10px;
-  }
-  .ft_box-tel.houmon .ft_box-tel-text a:nth-of-type(2) {
-    padding-left: 30px;
   }
   .ft_map {
     width: 100vw;

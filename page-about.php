@@ -26,7 +26,7 @@
               <tr class="about_tel">
                 <th>電話番号</th>
                 <td>外来診療：<a href="tel:0424709177">042-470-9177</a><br>
-                訪問診療：<a href="tel:09018193109">090-1819-3109</a><span class="pc">／</span><br class="sp"><a href="tel:0424555586"><span class="sp_tel">042-455-5586</span></a></td>
+                訪問診療：<a href="tel:0424555586">042-455-5586</span></a><span class="pc">／</span><br class="sp"><a href="tel:09018193109"><span class="sp_tel">090-1819-3109</a></td>
               </tr>
               <tr>
                 <th>FAX</th>
